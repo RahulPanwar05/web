@@ -174,6 +174,9 @@ background-position: center;
     gap: 20px;
     max-width:30%;
 }
+.features-card img{
+    width:50px;
+}
 
 .features-card{
     text-align:center;
@@ -190,4 +193,92 @@ background-position: center;
 .feature-desc{
     flex-direction:column;
     align-items:flex-start;
+}
+
+/* Example seciton */
+.example-section{
+    margin-top:45px;
+}
+.example-header{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.example-box{
+    margin-top:30px;
+    justify-content: space-between;
+}
+.example-card{
+    width:23%;
+    position: relative;
+    min-height:300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);background-size:cover;
+    transition: 0.2s ease-out;
+}
+.example-text{
+    position: absolute;
+    bottom:2px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 37.jpeg);
+
+}
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 38.jpeg);
+
+}
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 39.jpeg);
+
+}
+.example-card:hover{
+    box-shadow: 0 0 20px #222020;
+ 
+}
+
+/* cta section */
+.cta-box{
+    text-align: center;
+    flex-direction:column;
+    gap:50px;
+    color: white;
+}
+.cta-section{
+    background: #183b56;
+    padding: 120px var(--padding-inline-section) 80px;
+    margin-top: 20px;
+}
+.cta-box p{
+    color:white;
+    margin-top:20px;
+}
+/* footer */
+footer{
+    padding-block:80px;
+    color: #ebf2fa;;
+}
+.footer-container{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.link-column h4{
+    color: #1d69a3;
+}
+
+/* subfooter */
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content:center;
+    gap: 30px;
 }
