@@ -91,7 +91,7 @@ ul{
     background-color:#e74694;
     text-align: center;
     padding:10px 20px;
-    color: white;
+    color: white;    
 }
 /* nav */
 .main-nav{
@@ -114,7 +114,6 @@ justify-content: space-between;
     padding: 50px var(--padding-inline-section);
 }
 .header-section{
-    border:1px solid red;
     margin-top:10px;
     justify-content: center;
     gap:50px;
@@ -124,6 +123,7 @@ justify-content: space-between;
 }
 .header-left h1{
     margin-top:20px;
+    font-weight:500;
 }
 .header-left a{
     margin-top:20px;
@@ -133,4 +133,61 @@ justify-content: space-between;
 }
 .header-right img{
  width:600px;
+}
+
+/* companies section */
+.companies-section{
+    text-align: center;
+    margin-block:30px;
+    color: var(--primary-text-color);
+}
+.logos{
+    margin-top:25px;
+    justify-content:space-between;
+}
+.logo{
+    height:46px;
+}
+
+/* feature section */
+.features-section{
+    padding:80px var(--padding-inline-section) 0 ;
+background: url(./assets/asset\ 34.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.features-header{
+    text-align: center;
+
+}
+.features-header h2{
+    margin-bottom: 20px;
+}
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width:30%;
+}
+
+.features-card{
+    text-align:center;
+}
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+.big-feature-contatiner{
+    gap:30px
+}
+.feature-img img{
+    width:100%;
+}
+.feature-desc{
+    flex-direction:column;
+    align-items:flex-start;
 }
